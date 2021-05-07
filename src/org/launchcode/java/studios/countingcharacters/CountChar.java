@@ -34,7 +34,7 @@ public class CountChar {
                 charCounter.put(letter, 1);
             }
 
-        } //<--  loop through text end
+        } //<--  loop through text
 
         //print results
         for (Map.Entry<Character, Integer> characterInList : charCounter.entrySet()) {
